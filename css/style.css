@@ -1,0 +1,83 @@
+﻿/* ==========================================================================
+	Global Styles
+==========================================================================*/
+* {box-sizing: border-box;}
+body {
+	font-family: 'Philosopher', Arial, sans-serif;
+	}
+.clearfix:after {
+	content:'';
+	display: block;
+	clear: both;
+	}
+/* ==========================================================================
+ Typography
+========================================================================== */
+p{
+	color: white;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/* ==========================================================================
+Content
+========================================================================== */
+.container {
+	height:850px;
+	width: 72%;
+	position: relative;
+	margin: 0 auto;
+	background: url(../img/homework3_bonus.jpg);
+ }
+.top {
+	height: 150px;
+	}
+.logotype {
+	float: left;
+	}
+.logotype img {
+	width: 100%;
+	height: auto;
+	}
+.contacts {
+	width: 175px;
+	float: right;
+	padding-top: 5px;
+	color: white;
+	font-size: 15px;
+	line-height: 20px;
+	}
+.content_wraper { 
+	width: 100%;
+	padding: 0 50px;
+	}
+.country_box { 
+	height: 185px;
+	width: 270px;
+	float: right;
+	margin-right: 15px;
+	padding: 1px;
+	text-align: center;
+	border: 2px solid  rgb(145, 145, 145);
+    }
+.country_box img  {
+	width: 100%;
+	height: 100%;
+}
+.bottom {
+	margin-top: 60px;
+}
+/* ==========================================================================
+Footer
+========================================================================== */
+.footer {
+	height: 40px;
+	width: 74%;
+	padding: 10px 0;
+	position: absolute;
+	top: 800px;
+	left: 15%;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	}
